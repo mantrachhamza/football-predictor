@@ -1,0 +1,9 @@
+flask
+catboost
+scikit-learn
+pandas
+numpy
+joblib
+streamlit
+requests
+imbalanced-learn
