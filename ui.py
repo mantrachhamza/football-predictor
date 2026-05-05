@@ -513,7 +513,7 @@ if st.button("🔮  Predict Match Result", use_container_width=True, type="prima
         with st.spinner("Running CatBoost model..."):
             try:
                 res = requests.post(
-                    "http://localhost:5000/predict",
+                    "https://football-predictor-2bqr.onrender.com/predict",
                     json=payload,
                     timeout=10
                 )
